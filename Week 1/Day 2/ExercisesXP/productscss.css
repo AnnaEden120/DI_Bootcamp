@@ -19,3 +19,32 @@ h2{
 	
 }
 
+.babycribs img{
+	position: relative;
+	display: inline-block;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+}
+
+.babycribs p{
+	display: inline-block;
+	position: relative;
+	font-size: 20px;
+	text-align: center;
+}
+
+.babydresser img{
+	position: relative;
+	display: inline-block;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+}
+
+.babydresser p{
+	display: inline-block;
+	position: relative;
+	font-size: 20px;
+	text-align: center;
+}
