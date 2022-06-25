@@ -73,6 +73,20 @@ h1{
 }
 
 
+@media only screen and (min-width: 992px) {
+    .navbar {
+        background-color: red;
+        color: white;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .navbar {
+        background-color: black;
+        color: white;
+    }
+}
 
 .txtarea{
     line-height: 1;
