@@ -22,5 +22,11 @@ console.log(reversedFruits);
 
 //Exercise 2
 let moreFruits = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
-moreFruits[]
-
+console.log(moreFruits);
+let firstItem= moreFruits[0];
+console.log(firstItem)
+let secItem= moreFruits[1];
+console.log(secItem);
+let thirdItem= secItem[1];
+console.log(thirdItem);
+console.log(thirdItem[0]);
