@@ -7,13 +7,17 @@ let "notbad"= "The movie is not that bad, I like it"
 
 //Create a variable called wordNot where it’s value is the first appearance (ie. the position) of the substring “not” (from the sentence variable).
 
-let wordNot= notbad.substring(11,14)
+let wordNot= notbad.substring(13,16)
 
 //Create a variable called wordBad where it’s value is the first appearance (ie. the position) of the substring “bad” (from the sentence variable).
+
+let wordBad= notbad.substring(22,25)
 
 //If the word “bad” comes after the word “not”, you should replace the whole “not…bad” substring with “good”, then console.log the result.
 //For example, the result here should be : “The movie is good, I like it”
 //If the word “bad” does not come after “not” or the words are not in the sentence, console.log the original sentence.
+
+
 //Example:
 
  // Your string is : 'This dinner is not that bad ! You cook well', 
