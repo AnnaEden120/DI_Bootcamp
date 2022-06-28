@@ -34,3 +34,19 @@ newPeople.indexOf("Foo");
 //It returns -1 because it's not exist in the array.
 
 //7.
+let last= newPeople[newPeople.length - 1];
+console.log(last);//Jason
+
+//Part2.
+//1.
+for (let i in people){
+	console.log(people[i])
+};
+
+//2.
+for (people i = 0; i < 2; i++) {
+	if (i === "Jason") { 
+		break;
+	}
+	console.log("The people are" $people); 
+}
