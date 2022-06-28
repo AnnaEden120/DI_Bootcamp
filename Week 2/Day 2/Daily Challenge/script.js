@@ -28,3 +28,5 @@ let wordBad= notbad.substring(22,25)
 
 //  Your string is : 'This dinner is bad !' 
  // --> the result is : 'This dinner is bad !'
+
+try using built in functions and methods from javascript substring replace...
