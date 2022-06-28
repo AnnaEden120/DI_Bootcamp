@@ -84,3 +84,30 @@ if (typeof(result) !="number"){
 while (result<10){
 	console.log("Type another number")
 }
+
+//Exercise 4
+//1.
+let building = {
+	numberOfFloors : 4,
+	numberOfAptByFloor : {
+		firstFloor : 3,
+		secondFloor : 4,
+		thirdFloor : 9,
+		fourthFloor : 2,
+	},
+	nameOfTenants : ["Sarah", "Dan", "David"],
+	numberOfRoomsAndRent:  {
+		sarah: [3, 990],
+		dan :  [4, 1000],
+		david : [1, 500],
+	},
+};
+//2.
+console.log(building["numberOfFloors"]);
+//3.
+console.log(building["firstFloor"]["thirdFloor"]);
+//4.
+console.log(nameOfTenants[1][1]);
+
+
+//Exercise 5
