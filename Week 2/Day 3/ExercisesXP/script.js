@@ -50,3 +50,37 @@ for (people i = 0; i < 2; i++) {
 	}
 	console.log("The people are" $people); 
 }
+
+
+//Exercise 2
+//1.
+let colors= ["Red", "Blue", "Purple", "Black"];
+console.log(colors);
+//2.
+for (let i in colors){
+	if (i=0){
+		console.log("My 1st choice is Red")
+	}
+	if (i=1){
+		console.log("My 2nd choice is Blue")
+	}
+	if (i=2){
+		console.log("My 3rd choice is Purple")
+	}
+	if (i=3){
+		console.log("My 4th choice is Black")
+	}	
+};
+
+//Exercise 3
+//1.
+let num=prompt("Type a number");
+var result;
+let i in result;
+if (typeof(result) !="number"){
+	console.log("NaN")
+}
+//2.
+while (result<10){
+	console.log("Type another number")
+}
