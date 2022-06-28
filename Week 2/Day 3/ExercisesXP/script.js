@@ -111,3 +111,32 @@ console.log(nameOfTenants[1][1]);
 
 
 //Exercise 5
+//1.
+let family={
+	father: "Tom",
+	Mother: "Dana",
+	Boy: "Dani",
+};
+//2.
+for (let i in family) {
+	console.log(i);
+	console.log(family(i))
+}
+//3.
+for (let x in i){
+	console.log(i(x));
+};
+
+//Exercise6
+let details = {
+	my: 'name',
+	is: 'Rudolf',
+	the: 'raindeer'
+}
+
+for (let i in details){
+	consloe.log("My" $(details[0] "is" $(details[1]) "the"
+		$(raindeer[2]))
+};
+
+
