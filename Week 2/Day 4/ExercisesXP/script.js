@@ -42,4 +42,42 @@ function calculate(){
 		console.log("x+1.1")
 	}
 
+//Exercise3
+function isDivisible(){
+	for (let i=0; i<500; i++ )
+		console.log(i)
+}
+
+if (i/23===1){continue;}
+console.log(i)
+}
+else{
+	console.log("Error")
+}
+
+
+//Exercise4
+let stock = { 
+	"banana": 6, 
+	"apple": 0,
+	"pear": 12,
+	"orange": 32,
+	"blueberry":1
+}  
+
+let prices = {    
+	"banana": 4, 
+	"apple": 2, 
+	"pear": 1,
+	"orange": 1.5,
+	"blueberry":10
+} 
+
+let shoppingList=["banana","orange", "apple"];
+
+function myBill(){
+	let totalPrice=  
+}
+
+
 
