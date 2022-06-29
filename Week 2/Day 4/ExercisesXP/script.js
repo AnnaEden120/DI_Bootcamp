@@ -27,4 +27,19 @@ function inforAboutPerson(personName, personAge, personFavoriteColor){
 //Your name is David you are 45 years old and your favorite color is blue
 //Your name is 	Josh you are 12 years old and your favorite color is yellow
 
+//Exercise2
+function calculate(){
+	let amountOfBill = prompt("What is the amount of bill?", "Amount");
+	let number= number(amountOfBill)
+	let number=x
+	if (x<50){
+		console.log("x+1.20")
+	}
+	if (50<x<200){
+		console.log("x+1.15")
+	}
+	else{
+		console.log("x+1.1")
+	}
+
 
