@@ -12,8 +12,9 @@ function playTheGame(){
 	}
 	if(typeof x) !=== 'number' {
 		alert(“Sorry Not a number, Goodbye”);
-		if (typeof x) !=='x'
+		if (typeof x) !=='x'{
 			alert ("Sorry it’s not a good number, Goodbye");
+		}
 	} else if {
 		function randomNumberGenerate() {
 			return Math.floor(Math.random() * 10 + 1;
@@ -21,6 +22,23 @@ function playTheGame(){
 	}
 
 //part2
+function compareNumbers(userNumber,computerNumber) {
+	Let compareNumbers[0,1]=i
+	if userNumber===computerNumber{
+		alert ("WINNER");
+		return;
+	}
+	if userNumber>computerNumber{
+		prompt("Guess a new number");
+	}
+
+	if userNumber<computerNumber{
+		prompt("Your number is smaller then the computer’s, guess again")
+	}
+	else{
+		alert("out of chances");
+		return;
+	}
 
 
 
