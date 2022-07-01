@@ -75,8 +75,20 @@ let prices = {
 
 let shoppingList=["banana","orange", "apple"];
 
+function isInStock(item){
+	if(stock[item] && stock[item]>0){
+		return true;
+	}
+	return false;
+}
+
+function itemPrice(item){
+	return prices [item];
+}
+
 function myBill(){
-	let totalPrice=  
+	let sum=0
+	for (var i=0; i<shoppingList.length, i++)
 }
 
 
