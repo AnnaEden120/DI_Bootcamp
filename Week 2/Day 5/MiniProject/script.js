@@ -8,6 +8,7 @@ function playTheGame(){
 	}
 	while (true){
 		let x=[1,2,3,4,5,6,7,8,9,10];
+		input type="number"
 		var number= prompt("Choose a number between 0 to 10");
 	}
 	if(typeof x) !=== 'number' {
