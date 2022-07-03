@@ -17,6 +17,12 @@
         <li>Dan</li>
     </ul>
 
+    <div>Users:</div>
+    <ul>
+        <li>John</li>
+        <li>Pete</li>
+    </ul>
+
     <script>
         //Exercise 1
         //Retrieve the div and console.log it
@@ -36,10 +42,65 @@
         document.querySelector("List").getAttribute("ul");
         document.appendChild(class="student_list");
         //Add the classes university and attendance to the first <ul>.
+        document.getElementByClassName("list");
+        document.appendChild("Harvard");
+        document.appendChild("Present");
+
+        //Exercise2
+         //Add a “light blue” background color and some padding to the <div>.
+         element.style.background="color;lightblue";
+         element.style.padding="20px";
+        //Do not display the <li> that contains the text node “John”.
+        var x=document.querySelectorAll("ul"[0]);
+        x.style.display="block";
+        //Add a border to the <li> that contains the text node “Pete”.
+        var y=document.querySelectorAll("ul");
+        y.style.border="1px;solid; black";
+        y.style.text-align="center;"
+        //Change the font size of the whole body.
+        var bodyFont=document.getElementsByTagName(body);
+        bodyFont.style.font-size="large";
+        //Bonus: If the background color of the div is “light blue”, alert “Hello x and y” (x and y are the users in the div).
+        if background="lightblue"{
+            let x= username1;
+            let y=username2;
+            var hello=prompt("What is your name?");
+            input type=string;
+            console.log("Hello" $x "and" $y);
+        }
+
+        //Exercise3
+        <div id="navBar">
+        <ul>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">My Friends</a></li>
+        <li><a href="#">Messenger</a></li>
+        <li><a href="#">My Pics</a></li>
+        </ul>
+        </div>
+
+        //In the <div>, change the value of the id attribute from navBar to socialNetworkNavigation, using the setAttribute method.
+        var newDiv1=document.getElementsById("navBar");
+        newDiv1.setAttribute("navBar", "socialNetworkNavigation");
+        //We are going to add a new <li> to the <ul>.
+     // First, create a new <li> tag (use the createElement method).
+     var newLi= document.getElementsByTagName(ul);
+     document.createElement(newLi)="<li></li>"
+      //Create a new text node with “Logout” as its specified text.
+      //Append the text node to the newly created list node (<li>).
+    //  Finally, append this updated list node to the unordered list (<ul>), using the appendChild method.
+    
 
 
 
 
-    </script>
+
+
+    
+
+
+
+</script>
 </body>
 </html>
