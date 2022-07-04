@@ -6,18 +6,43 @@
 	<title></title>
 </head>
 <body>
+
+	<style>
+		.hoverOut {
+			position: relative;
+			-webkit-transition: all 1s ease-in-out;
+			-moz-transition: all 1s ease-in-out;
+			-ms-transition: all 1s ease-in-out;
+			-o-transition: all 1s ease-in-out;
+			transition: all 1s ease-in-out;
+			text-align:center;
+			font-size:0;
+
+		}
+		.hoverOut:hover{
+			font-size:14px;
+			color:white;
+
+		}
+	</style>
 	<article>
-		<h1> Some Facts </h1>
+		<div class=hoverOut>
+			<h1 id="some" onmouseover="someFacts"> Some Facts </h1>
+		</div>
 		<h2> The Chocolate </h2>
 		<h3> History of the chocolate </h3>
 		<p> Chocolate is made from tropical Theobroma cacao tree seeds. 
 		Its earliest use dates back to the Olmec civilization in Mesoamerica.</p>
+
 		<p> After the European discovery of the Americas, chocolate became 
 		very popular in the wider world, and its demand exploded. </p>
 		<p> Chocolate has since become a popular food product that millions enjoy every day, 
 		thanks to its unique, rich, and sweet taste.</p> 
-		<p> But what effect does eating chocolate have on our health?</p> 
+		<p> But what effect does eating chocolate have on our health?</p>
+		<button>Click me</button> 
 	</article>
+
+
 
 	<script src="script.js"></script>
 </body>
