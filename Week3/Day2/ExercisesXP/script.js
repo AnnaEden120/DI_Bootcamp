@@ -70,6 +70,7 @@ console.log(getValueInput);
 //make sure that they are not empty,
 //create an li per input value,
 //then append them to a the <ul class="usersAnswer"></ul>, below the form.
+//(not sure how to do the last three...)
 
 //Exercise3
 //Declare a global variable named allBoldItems.
@@ -100,7 +101,15 @@ function return_normal(x) {
 	x.style.width = "32px";
 }
 
-//Exercise4// it's include a form type, Ziv told us not to do it yet.
+//Exercise4//
+function volumeSphere(){
+	let volume;
+	let radius=document.getElementById('radius)'.value;
+		radius=Math.abs(radius);
+		volume = (4/3) * Math.PI * Math.pow(radius, 3);
+		document.getElementById('volume').value = volume;
+		return volume;
+	}
 
 
 
