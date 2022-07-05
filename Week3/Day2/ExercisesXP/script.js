@@ -45,7 +45,31 @@ function (){
 
 //}
 //</style>
-//Exercise2- Ziv told us not to do it because we did not learn forms yet.
+
+//Exercise2
+//Retrieve the form and console.log it.
+let x= document.form[0];
+console.log(x)
+//Retrieve the inputs by their id and console.log them.
+let first=document.forms[0].element.fname;
+let last=document.forms[0].element.lname;
+console.log(first,last);
+//Retrieve the inputs by their name attribute and console.log them.
+let first=document.forms[1,3].elements[0];
+let last=document.forms[1,3].elements[0];
+console.log(first,last);
+//When the user submits the form (ie. submit event listener)
+//use event.preventDefault(), why ?//it's useful when you want to prevent submitting a form.
+document.getElementsByTagName('form').addEventListener("click", function(event){
+	event.preventDefault()
+});
+//get the values of the input tags,
+let getValueInput;
+document.getElementById("fname", "lname").innerHTML=getValueInput
+console.log(getValueInput);
+//make sure that they are not empty,
+//create an li per input value,
+//then append them to a the <ul class="usersAnswer"></ul>, below the form.
 
 //Exercise3
 //Declare a global variable named allBoldItems.
