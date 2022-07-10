@@ -13,6 +13,8 @@ setTimeout(hello, 2000);
 function hello2(){
 	let 
 }
+//setInterval...//look at Lise's code
+
 
 //Part III
 //In your Javascript file, using setInterval, call a function every 2 seconds.

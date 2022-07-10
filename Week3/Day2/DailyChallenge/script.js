@@ -15,3 +15,4 @@ theStory.textContent = "The"+n "will be always a" +ad "thing, because" +p "is ne
 //Make sure you check the console for errors when playing the game.
 //Bonus: Add a “shuffle” button to the HTML file, when clicked the button should change the story currently displayed (but keep the values entered by the user). 
 //The user could click the button at least three times and get a new story. Display the stories randomly.
+//not sure how to do the last two....//
