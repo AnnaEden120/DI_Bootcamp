@@ -6,6 +6,8 @@ function hello() {
 	alert("Hello World");
 }
 setTimeout(hello, 2000);
+hello();
+
 
 //Part II
 //In your Javascript file, using setTimeout, call a function after 2 seconds.
