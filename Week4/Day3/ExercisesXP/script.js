@@ -49,3 +49,26 @@ const last=users.map((lastName=>lastName);
 
 
 	//Exercise 3
+	let epic = ['a', 'long', 'time', 'ago', 'in a', 'galaxy', 'far far', 'away'];
+	const star= epic.reduce((accumulator, currentValue)=>{
+		return accumulator+currentValue
+	}, 0);
+	console.log(star);
+
+	//Exercise4
+	let students = [{name: "Ray", course: "Computer Science", isPassed: true}, 
+	{name: "Liam", course: "Computer Science", isPassed: false}, 
+	{name: "Jenner", course: "Information Technology", isPassed: true}, 
+	{name: "Marco", course: "Robotics", isPassed: true}, 
+	{name: "Kimberly", course: "Artificial Intelligence", isPassed: false}, 
+	{name: "Jamie", course: "Big Data", isPassed: false}];
+
+//Using the filter() method, create a new array, containing the students that passed the course.
+const pass= students.filter(isPassed=>isPassed==true);
+console.log(pass);
+//Bonus : Chain the filter method with a forEach method, to congratulate the students with their name and course name
+// (ie. “Good job Jenner, you passed the course in Information Technology”, “Good Job Marco you passed the course in Robotics” ect…)
+
+
+
+
