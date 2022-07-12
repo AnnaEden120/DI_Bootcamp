@@ -64,11 +64,15 @@ const last=users.map((lastName=>lastName);
 	{name: "Jamie", course: "Big Data", isPassed: false}];
 
 //Using the filter() method, create a new array, containing the students that passed the course.
-const pass= students.filter(isPassed=>isPassed==true);
-console.log(pass);
 //Bonus : Chain the filter method with a forEach method, to congratulate the students with their name and course name
 // (ie. “Good job Jenner, you passed the course in Information Technology”, “Good Job Marco you passed the course in Robotics” ect…)
-
+const pass= students.filter(isPassed=>isPassed==true);
+.forEach(function(namePass){
+	for (isPassed==true){
+		return "Good job" $name ",you passed the course in " $course;
+	}
+})
+console.log(pass);
 
 
 
