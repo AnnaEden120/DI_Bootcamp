@@ -19,3 +19,5 @@ watch(){
 const uploader1 = new Video("titanic", "Anna", "500");
 console.log(uploader1.watch()); 
 //4.
+const uploader2= new Video("Avengers", "Tom", "900");
+//not sure how to do 5 and 6 to be honest...
