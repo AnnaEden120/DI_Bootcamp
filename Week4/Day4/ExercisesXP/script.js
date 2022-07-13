@@ -16,7 +16,23 @@ console.log(`I am ${name} from ${city}, ${country}. Latitude(${lat}), Longitude(
 
 //Exercise2
 function displayStudentInfo(objUser){
-    //destructuring
+	objUser={
+		first:'Elie',
+		last:'Schoppik'
+	}
+};
+
+displayStudentInfo(Object.entries(objUser));
+for (let [key,value] of Object.entries(objUser)){
+	console.log(`${key}: ${value}`);
 }
 
-displayStudentInfo({first: 'Elie', last:'Schoppik'});
+//Exercise3
+//1.
+const users = { user1: 18273, user2: 92833, user3: 90315 };
+console.log(Object.entries(users));
+//2.
+const id= function userId{
+	let value= value*2;
+}
+console.log(`[{$key}; {$id}]`);
