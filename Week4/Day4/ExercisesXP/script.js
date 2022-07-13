@@ -36,3 +36,19 @@ const id= function userId{
 	let value= value*2;
 }
 console.log(`[{$key}; {$id}]`);
+
+//Exercise5
+class Dog {
+	constructor(name) {
+		this.name = name;
+	}
+};
+class Labrador extends Dog {
+	constructor(name, size) {
+		this.name = name;
+		this.size = size;
+	}
+};//This is the one that will extend the class dog becuase it will show both "name" and "size".
+
+//Exercise6
+
