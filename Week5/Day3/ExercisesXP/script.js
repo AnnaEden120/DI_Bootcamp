@@ -37,3 +37,13 @@ const promise = new Promise((resolve, reject) => {
 .catch((error) => {
 	console.log("Ooops something went wrong");
 })
+
+//Exercise3
+//1.
+let resolved=3;
+Promise.resolve('3', rejected).then(
+	(resolved) => {
+		console.log(resolved); 
+	};
+  //2.
+  Promise.reject(new Error('Boo!')).then(resolved, rejected);
