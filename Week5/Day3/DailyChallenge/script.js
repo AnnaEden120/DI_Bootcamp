@@ -25,3 +25,6 @@ function sortWords(arr2){
 	});
 }
 
+
+//Second
+//not sure how to solve it...
