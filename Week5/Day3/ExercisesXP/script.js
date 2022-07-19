@@ -24,3 +24,16 @@ let compare=function (compareToTen(num);
 	options.finally(compareToTen(num){
 		consoloe.log("Sorry,", value);
 	}
+
+//Exercise2
+//1.
+const promise = new Promise((resolve, reject) => {
+	setTimeout(() => {
+		resolve("Success");
+	}, 4000);
+})
+//2.//I used the arrow function on secton 1.
+//3.
+.catch((error) => {
+	console.log("Ooops something went wrong");
+})
