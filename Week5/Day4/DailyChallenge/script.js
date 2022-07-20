@@ -6,5 +6,7 @@ const promise3 = new Promise((resolve, reject) => {
 	setTimeout(resolve, 3000, 'foo');
 });
 
-function Promise.all([promise1, promise2, promise3]).then((values).catch(error)=>
+Promise.all([promise1, promise2, promise3]).then((values).catch(error)=>
 	console.log(values, error);
+
+//Second
