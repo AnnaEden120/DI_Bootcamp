@@ -1,176 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>Sunset</title>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Subrayada" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
 </head>
 <body>
-  <!--<div class="splash">
-    <div class="row">
-      <div class="col-xs-12">
-        <img src="assets/images/sunset-on-a-beach - copia.gif" alt="" class="img-splash">
-      </div>
-    </div>
-  </div>-->
-  <div id="sect-nav">
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand navbar-link" href="#"><img class="logo" src="assets/images/logo-new.png"></a>
-          <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse" id="navcol-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li id="user-img" role="presentation"></li>
-            <li class="menu-nav" role="presentation"><a id="user-name" href="#"></a></li>
-            <li id="search-btn" class="menu-nav" role="presentation"><a href="#"></a></li>
-            <li class="menu-nav" id="cerrar" role="presentation"><a href="#">Cerrar Sesión</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
-  <!-- section login -->
-  <section id="login">
-    <div class="row">
-      <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
-        <div class="contai-log">
-          <div class="row omb_login_cont">
-            <div class="col-xs-8  col-xs-offset-2 col-md-8  col-md-offset-2">
-              <img class="logo_login" src="assets/images/logo-new.png">
-            </div>
-          </div>
-          <div class="row omb_login">
-            <div class="col-xs-12 col-md-7 col-md-offset-2">
-              <h1 class="text-center login">Login</h1>
-            </div>
-          </div>
-          <div class="row omb_row-sm-offset-4 omb_socialButtons">
-            <div class="col-xs-8 col-xs-offset-2 col-md-7 col-md-offset-2">
-              <a href="#" id="btn-google" class="btn btn-lg btn-block omb_btn-google">
-                <span class="text-social">Google+</span>
-              </a>
-            </div>
-          </div>
-          <div class="row omb_row-sm-offset-4 omb_socialButtons">
-            <div class="col-xs-8 col-xs-offset-2 col-md-7 col-md-offset-2">
-              <a href="#" id="btn-facebook" class="btn btn-lg btn-block omb_btn-facebook">
-                <span class="text-social">Facebook</span>
-              </a>
-            </div>
-          </div>
-          <!--<div class="row omb_row-sm-offset-4 omb_socialButtons">
-            <div class="col-xs-8 col-xs-offset-2 col-md-7 col-md-offset-2">
-              <a href="#" id="btn-twitter" class="btn btn-lg btn-block omb_btn-twitter">
-                <span class="text-social">Twitter</span>
-              </a>
-            </div>
-          </div>
-          <div class="row omb_row-sm-offset-4 omb_socialButtons">
-            <div class="col-xs-8 col-xs-offset-2 col-md-7 col-md-offset-2">
-              <a href="#" id="btn-github" class="btn btn-lg btn-block omb_btn-github">
-                <span class="text-social">GitHub</span>
-              </a>
-            </div>
-          </div>-->
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <section id="apis-place">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 text-center col-lg-12">
-          <h1 class="title">AT THE RIGTH TIME</h1>
-        </div>
-      </div> 
-    </div>
+	<form>
+		<fieldset id=city1>
+			<legend>First City</legend>
+			<label for="fcity1la">Latitude:</label><br>
+			<input type="text" id="fcity1la"><br>
+			<label for="city2lo">Longitude:</label><br>
+			<input 
+			type="text"
+			inputmode="numeric"
+			id="latitude"
+			/><br>
+			<input type="submit" value="Submit">
+		</fieldset>
+		<fieldset id=city2>
+			<legend>Second City</legend>
+			<label for="scity1la">Latitude:</label><br>
+			<input type="text" id="scity1la"><br>
+			<label for="city2lo">Longitude:</label><br>
+			<input type="text" id="city2lo"><br>
+			<input type="submit" value="Submit">
+		</fieldset>
+	</form>
 
-    <div class="container buttons">
-      <div class="row">
-        <div class="col-xs-12 text-center">
-          <h2 class="currentTime"></h2>
-          <button type="button" class="today">Sunrise & Sunset : Today</button>
-          <button type="button" class="anyDay">Sunrise & Sunset : Any Day</button>
-          <button type='button' class="moonButton">Moon phases of the week</button>
-        </div>
-      </div>
-    </div>
-    
-    <div class="container">
-      <div class="row text-center">
-        <div id='todayInfo' class="col-xs-12 hidden">
-          <input id="searchTextField" type="text" size="50" placeholder="Enter a location" autocomplete="on" runat="server"/>  
-          <input type="hidden" id="city2" name="city2" />
-          <input type="hidden" id="cityLat" name="cityLat" />
-          <input type="hidden" id="cityLng" name="cityLng" />
-          <div id="info" class="container"></div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 text-center">
-          <input  class="hidden" id="searchWithDate" type="text" size="50" placeholder="Enter a location" autocomplete="on" runat="server"/>
-          <input class="hidden inputDate" id="date" type="date"> 
-          <input type="hidden" id="city3" name="city2" />
-          <input type="hidden" id="cityLat3" name="cityLat" />
-          <input type="hidden" id="cityLng3" name="cityLng" /> 
-          <div id="info2" class="container"></div>
-        </div>
-      </div>
-    </div>
 
-    <div class="container">
-      <div class="row text-center">
-        <div id='moonInfo' class="col-xs-12 hidden">
-          <div class="row">
-            <div class="col-xs-12">
-              <div id="ex1"></div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-4">
-              <div id="ex2"></div>
-            </div>
-            
-            
-            <div class="col-xs-4">
-              <div id="ex3"></div>
-            </div>
-            
-            
-            <div class="col-xs-4">
-              <div id="ex4"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <script
-  src="http://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <script src="https://www.gstatic.com/firebasejs/4.10.0/firebase.js"></script>
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAe4PjDvFsErlKuu0gvNeiqVZB-4zD2biI&libraries=places"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment-with-locales.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.14/moment-timezone-with-data-2012-2022.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="https://use.fontawesome.com/ada9774bec.js"></script>
-  <script type="text/javascript" src="assets/js/app.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
