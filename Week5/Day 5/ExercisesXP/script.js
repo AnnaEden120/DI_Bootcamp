@@ -41,7 +41,7 @@ function getInfo (){
  function updateInfo(resp){
 
   // ajax
-  let url = new URL(resp.homeworld);
+  let url = new 'https://www.swapi.tech/api/people'
   url.protocol = 'https:'
   xhr.open('GET', url.href);
 
