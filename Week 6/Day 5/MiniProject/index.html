@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>To Do List</title>
+</head>
+<body>
+<header>
+	<h1>To Do List App</h1>
+	<form id="new-task-form">
+		<input type="text" id="new-task-input" name="name" placeholder="Name"/><br>
+		<input type="text" id="description" name="description" placeholder="Description"/><br>
+<label for="start">Start</label>
+
+<input type="datetime-local" id="meeting-time"
+       name="meeting-time" value="2018-06-12T19:30"
+       min="2018-06-07T00:00" max="2018-06-14T00:00"><br>
+       <label for="end">End</label>
+<input type="datetime-local" id="meeting-time"
+       name="meeting-time" value="2018-06-12T19:30"
+       min="2018-06-07T00:00" max="2018-06-14T00:00"><br>
+       <button type="submit" id="btn">Save</button>
+       	</form>
+</header>
+
+<main>
+	<section class="task-list">
+		<h2>Tasks</h2>
+<div id="tasks">
+	<!--<div class="task">
+	<div class="content">
+		<input type="text" class="text" readonly/>
+		</div>
+		<div class="actions">
+			<button class="edit">Edit</button>
+			<button class="delete">Delete</button>
+		</div>
+	</div>-->
+</div>
+	</section>
+</main>
+
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

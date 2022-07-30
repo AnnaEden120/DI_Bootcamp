@@ -126,7 +126,8 @@ What does this code return ?
 
 12. DOM exercise
       1. Part I : Create a button in your HTML page, 
-      when the user will click the the button a paragraph will be added on the DOM with the content "New Paragraph". 
+      when the user will click the the button a paragraph will be added on the DOM with the content 
+      "New Paragraph". 
       Use arrow functions
       <body>
 
@@ -292,16 +293,19 @@ What will be displayed to the console when calling the `f()` function? Explain t
  //   2. Make sure to use try and catch
 
 
-const func = () => {
-    fetch("https://catfact.ninja/fact")
-        .then((resp) => resp.json())
-        .then((resp) => 
-              console.log(`Here's a nice fact about cats
-              ${resp.results.fact}`))
-        .catch(function (error) {
-            console.log(`We got the error ${error}`)
-        });
+Let btn=document.getElementById("btn");
+
+async function findFact(){
+    try{
+    const catFact= await fetch("https://catfact.ninja/fact");
+    if (catFact.status!=200){
+        throw new error ("fact problem")
+    } else {
+    }
+    console.log(catFact)
+}catch(err){
+    //error message
 }
 
 
-func()
+btn.addEvent Listener("Click", findFact)
