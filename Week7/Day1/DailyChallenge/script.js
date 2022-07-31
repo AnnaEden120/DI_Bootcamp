@@ -21,3 +21,7 @@ server.listen(port, function(error){
         console.log('I am listening..');
     }
 })
+
+//Part3
+let dateAndTime = require('./main.js');
+console.log(`The date and time are currently ${dateAndTime.myDate()} ${dateAndTime.myTime()}`)
