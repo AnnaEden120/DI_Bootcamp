@@ -1,7 +1,4 @@
-const { animals } = require("./server");
+let result= require('./server.js');
 
-console.log(animals);
-
-const myAnimalExports = require("./server");
-
-console.log(myAnimalExports.animals);
+result.addOperator (100,20)
+result.divideOperator (100,100)

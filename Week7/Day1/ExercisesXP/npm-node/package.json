@@ -1,0 +1,17 @@
+{
+  "name": "npm-node",
+  "version": "1.0.0",
+  "description": "first npm project",
+  "main": "main.js",
+  "scripts": {
+    "test": "nodemon main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "folder": "^0.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
