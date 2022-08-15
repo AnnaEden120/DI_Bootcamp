@@ -3,6 +3,7 @@ import "./style.css";
 
 const App = ()=>{
   const [quotes, setQuotes] =useState('');
+  let colors =
 
   const getQuote =()=>{
     fetch("https://type.fit/api/quotes")
@@ -21,9 +22,9 @@ return (
   <div className="App">
   <div className="quote">
     <p>{quotes.text}</p>
-    <p>{quotes.author}</p>
+    <p> - {quotes.author}</p>
     <div className="btnContainer">
-      <button className="btn">New Quote</button>
+      <button onClick={getQuote} className="btn">New Quote</button>
       </div>
     </div>
     </div>
