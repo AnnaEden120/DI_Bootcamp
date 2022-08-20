@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0"
+  },
+  "devDependencies": {
+    "@redux-devtools/core": "^3.13.1"
+  }
+}
